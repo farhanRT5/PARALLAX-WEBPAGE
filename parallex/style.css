@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Black Ops One', cursive;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(images/1st.png);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(images/2nd.png);
+    min-height: 500px;
+}
+
+.pimg3 {
+    background-image: url(images/3rd.png);
+    min-height: 500px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    /*image sizing and fitting full iamge on screen */
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*parallax effect property */
+    background-attachment: fixed;
+
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background: white;
+    padding: 15px;
+}
+
+.textbg2 {
+    padding: 15px;
+}
+
+.textbg3 {
+    background: black;
+    color: beige;
+    padding: 15px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center; 
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 17px;
+}
+.section-light{
+    background-color: #F5F5DC;
+    color: #282e34;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.section-last{
+    background-color:	#2F4F4F;
+    color: #FFFFE0;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: 4px;
+}
